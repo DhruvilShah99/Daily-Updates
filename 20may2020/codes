@@ -1,0 +1,122 @@
+# 1 program
+package com.resultset.jdbc;
+ 
+import java.sql.Connection;
+public class ReadDatabaseStructureExample {
+    public static void main(String[] args) {
+        String url = "jdbc:mysql://localhost:3306/college";
+        String username = "root";
+        String password = "password";
+ 
+        try (Connection conn = DriverManager.getConnection(url, username, password)) {
+ 
+            DatabaseMetaData meta = conn.getMetaData();
+ 
+            String catalog = null, schemaPattern = null, tableNamePattern = null;
+            String[] types = {"TABLE"};
+ 
+            ResultSet rsTables = meta.getTables(catalog, schemaPattern, tableNamePattern, types);
+ 
+ 
+            while (rsTables.next()) {
+                String tableName = rsTables.getString(3);
+                System.out.println("\n=== TABLE: " + tableName);
+ 
+                String columnNamePattern = null;
+                ResultSet rsColumns = meta.getColumns(catalog, schemaPattern, tableName, columnNamePattern);
+ 
+                ResultSet rsPK = meta.getPrimaryKeys(catalog, schemaPattern, tableName);
+ 
+                while (rsColumns.next()) {
+                    String columnName = rsColumns.getString("COLUMN_NAME");
+                    String columnType = rsColumns.getString("TYPE_NAME");
+                    int columnSize = rsColumns.getInt("COLUMN_SIZE");
+                    System.out.println("\t" + columnName + " - " + columnType + "(" + columnSize + ")");
+                }
+ 
+                while (rsPK.next()) {
+                    String primaryKeyColumn = rsPK.getString("COLUMN_NAME");
+                    System.out.println("\tPrimary Key Column: " + primaryKeyColumn);
+                }
+ 
+            }
+ 
+        } catch (SQLException ex) {
+            System.out.println(ex.getMessage());
+            ex.printStackTrace();
+        }
+ 
+    }
+}
+2nd program(linked list)
+#include<stdio.h> 
+#include<stdlib.h> 
+struct Node 
+{ 
+	int data; 
+	struct Node* next; 
+}; 
+struct Node *reverse (struct Node *head, int k) 
+{ 
+	struct Node* current = head; 
+	struct Node* next = NULL; 
+	struct Node* prev = NULL; 
+	int count = 0; 
+		while (current != NULL && count < k) 
+	{ 
+		next = current->next; 
+		current->next = prev; 
+		prev = current; 
+		current = next; 
+		count++; 
+	} 
+	if (next != NULL) 
+	head->next = reverse(next, k); 
+       return prev; 
+} 
+void push(struct Node** head_ref, int new_data) 
+{ 
+	
+	struct Node* new_node = (struct Node*) malloc(sizeof(struct Node)); 
+      new_node->data = new_data; 
+     new_node->next = (*head_ref);	 
+     (*head_ref) = new_node; 
+} 
+
+void printList(struct Node *node) 
+{ 
+	while (node != NULL) 
+	{ 
+		printf("%d ", node->data); 
+		node = node->next; 
+	} 
+}	 
+
+
+int main(void) 
+{ 
+
+	struct Node* head = NULL; 
+	
+	push(&head, 8); 
+	push(&head, 7); 
+	push(&head, 6); 
+	push(&head, 5); 
+	push(&head, 4); 
+	push(&head, 3); 
+	push(&head, 2); 
+	push(&head, 1);		 
+ int k;
+ 
+ 
+	printf("\nGiven linked list \n"); 
+	printList(head); 
+	 printf("\nk=");
+     scanf("%d",&k);
+	head = reverse(head, k); 
+
+	printf("\nReversed Linked list \n"); 
+	printList(head); 
+
+	return(0); 
+}

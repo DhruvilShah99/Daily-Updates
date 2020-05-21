@@ -31,3 +31,22 @@ First take a Stack. Traverse through each node of the linked list and push each 
 Once the traversal & copying is done, iterate through linked list from head node again.
 In each iteration, pop one stack element and compare with node value in respective iteration. It is expected to match stack popped value with node value.
 In case of all matches, its a palindrome. Any one element mismatch makes it not a palindrome.
+
+# 20th May coding question
+ 1 Write a Java Program 
+which illustrates how to get column properties from ResultSet using ResultSetMetaData? ResultSetMetaData is an object that can be used to get information about the types and properties of the columns in a ResultSet object. Below example shows how to get ResultSet column properties using ResultSetMetaData object.
+
+ 2 Write a C program
+Reverse a Linked List in groups of given size.
+
+
+
+# 21 May coding updates
+
+ 1.java program for displaying simple calculator using applet
+
+ 2.C Program to create Singly Liked List with n elements and reverse the elements
+
+ 3.C program to construct a singly linked list by removing duplicate elements in the sorted linked list Sample output: Given list {1,2,2,3,3,3,4} Resulting list{4,3,2,1}
+
+ 4.java program to implement round robin scheduling algorithm.Calculate AVG WT AND TAT. INPUT:NO OF PROCESSES,BURST TIME AND TIME QUANTUM.

@@ -83,3 +83,8 @@ Reverse a Linked List in groups of given size.
 2. Write a Java program for interleaving of 4 string with 2 string by seperating it.
 
 3. Write a Python program to count no of upper and lower case in a string.
+
+# 30 May coding updates
+1. Python program to read a number and print the pattern
+
+2. Java program to Count number of trailing zeros in product of array

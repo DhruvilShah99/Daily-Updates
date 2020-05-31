@@ -88,3 +88,8 @@ Reverse a Linked List in groups of given size.
 1. Python program to read a number and print the pattern
 
 2. Java program to Count number of trailing zeros in product of array
+
+# 31 May coding updates
+1. Java Program to check whether given number is Armstrong or not
+
+2. Java program to calculate the longest substring from given string.

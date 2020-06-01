@@ -93,3 +93,10 @@ Reverse a Linked List in groups of given size.
 1. Java Program to check whether given number is Armstrong or not
 
 2. Java program to calculate the longest substring from given string.
+
+# 01 June coding updates
+1. Python program to remove duplicate values from the list
+
+2. Java program to left rotate the elements of an array
+
+3. C program to find leader in array

@@ -100,3 +100,12 @@ Reverse a Linked List in groups of given size.
 2. Java program to left rotate the elements of an array
 
 3. C program to find leader in array
+
+# 02 June coding updates
+
+1. Python program for slicing list and print 1st and last element
+
+2. Java program to check if given linked list has a loop or not.
+
+3. C program for inversion count of array
+

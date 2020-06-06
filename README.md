@@ -123,6 +123,10 @@ Reverse a Linked List in groups of given size.
 
 # 05 June coding updates
 
+1. Python program to square only odd number from list
+
+2. Java program to implement Circular linked list using Array and Class.
+
 # 06 June coding updates
 
 1. Python program to count number of strings

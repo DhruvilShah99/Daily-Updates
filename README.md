@@ -114,3 +114,17 @@ Reverse a Linked List in groups of given size.
 1. Python program to display all the prime numbers within an interval
 
 2. Java program to implement circular doubly linked list
+
+# 04 June coding updates
+
+1. Python program to add two string in sequence
+
+2. Java program to implement Queue Using Array And Class
+
+# 05 June coding updates
+
+# 06 June coding updates
+
+1. Python program to count number of strings
+
+2. Python program to implement CRC

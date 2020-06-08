@@ -139,3 +139,10 @@ Reverse a Linked List in groups of given size.
 
 2. Java program to print smallest and biggest possible palindrome word in a given string
 
+# 08 June coding updates
+
+1. Python program to check given string is palindrome or not
+
+2. C++ program to Check whether a number can be represented as difference of two squares
+
+3. Java program to delete a node from the middle of the singly linked list

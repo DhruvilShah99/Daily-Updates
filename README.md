@@ -162,3 +162,9 @@ Reverse a Linked List in groups of given size.
 2. Write a Java program to find the maximum and minimum value node from a circular linked list
 
 3. Write a C Program to print the sum of boundary elements of a matrix
+
+# 11 June coding updates
+
+1. Java program to find the nodes which are at the maximum distance in a Binary Tree
+
+2. Python Program to Convert a string to all uppercase if it contains at least 2 uppercase characters in the first 4 characters

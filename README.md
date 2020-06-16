@@ -194,3 +194,9 @@ Reverse a Linked List in groups of given size.
 # 15 June coding updates
 
 1. Java program to get middle node of SLL
+
+# 16 June coding updates
+
+1. C program to implement triply linked list
+
+2. Python program to check whether a given a binary tree is a valid binary search tree (BST) or not?

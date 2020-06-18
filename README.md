@@ -200,3 +200,13 @@ Reverse a Linked List in groups of given size.
 1. C program to implement triply linked list
 
 2. Python program to check whether a given a binary tree is a valid binary search tree (BST) or not?
+
+# 17 June coding updates
+
+1. Java program to find the row, column position of a specified number in a given 2-dimensional array
+
+# 18 June coding updates
+
+1. C Program to generate first N Magic Numbers.
+
+2. Java program to check given binary tree is bst or not

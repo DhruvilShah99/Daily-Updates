@@ -210,3 +210,7 @@ Reverse a Linked List in groups of given size.
 1. C Program to generate first N Magic Numbers.
 
 2. Java program to check given binary tree is bst or not
+
+# 19 June coding updates
+
+1. Java program to create a doubly linked list of n nodes and display it in reverse order

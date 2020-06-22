@@ -214,3 +214,11 @@ Reverse a Linked List in groups of given size.
 # 19 June coding updates
 
 1. Java program to create a doubly linked list of n nodes and display it in reverse order
+
+# 20 June coding updates
+
+1. Write a C Program to rotate an array by K positions. Circular array rotation means rotating the elements in the array where one rotation operation moves the last element of the array to the first position and shifts all remaining elements to the right.
+
+# 22 June coding updates
+
+1. Java program to the area of the square,rectangle and circle

@@ -222,3 +222,7 @@ Reverse a Linked List in groups of given size.
 # 22 June coding updates
 
 1. Java program to the area of the square,rectangle and circle
+
+# 23 June coding updates
+
+1. Write a Java program to find maximum repeated words from a file.

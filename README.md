@@ -206,3 +206,6 @@ Reverse a Linked List in groups of given size.
 
 # 25 June coding updates
 1. Python program to display pattern
+
+# 26 June coding updates
+1. C Program to implement queue operation.

@@ -209,3 +209,7 @@ Reverse a Linked List in groups of given size.
 
 # 26 June coding updates
 1. C Program to implement queue operation.
+
+# 27 June coding updates
+1. C Program to implement queue oper
+1. Java program to display permutation in string
